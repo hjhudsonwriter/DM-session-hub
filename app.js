@@ -101,13 +101,39 @@ async function pageLines(pageNumber){
 }
 
 // ---------- Outline -> Scenes ----------
-async function resolveDestToPageIndex(dest){
+async function resolveDestToPageIndex(dest) {
   // Returns 1-based page number
-  const resolved = await pdfDoc.getDestination(dest);
-  if (!resolved) return null;
-  const ref = resolved[0];
-  const pageIndex = await pdfDoc.getPageIndex(ref);
-  return pageIndex + 1;
+  // dest can be:
+  //  - a named destination (string)
+  //  - an explicit destination array
+  //  - null/undefined
+  if (!dest) return null;
+
+  let resolved = null;
+
+  // If dest is already an explicit destination array, use it directly.
+  if (Array.isArray(dest)) {
+    resolved = dest;
+  } else {
+    // Otherwise assume it's a named destination and resolve it.
+    try {
+      resolved = await pdfDoc.getDestination(dest);
+    } catch (e) {
+      console.warn("Failed to resolve destination:", dest, e);
+      return null;
+    }
+  }
+
+  if (!resolved || !resolved[0]) return null;
+
+  // resolved[0] is a page reference for pdf.js
+  try {
+    const pageIndex = await pdfDoc.getPageIndex(resolved[0]);
+    return pageIndex + 1;
+  } catch (e) {
+    console.warn("Failed to get page index for destination:", resolved, e);
+    return null;
+  }
 }
 
 async function flattenOutline(outline, out = []){
