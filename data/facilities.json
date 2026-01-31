@@ -1,0 +1,1289 @@
+[
+  {
+    "name": "Arcane Study",
+    "id": "arcane_study",
+    "requiredLevel": 5,
+    "functions": [
+      {
+        "id": "craft_common",
+        "label": "Craft Common",
+        "options": [
+          {
+            "label": "Arcane Focus"
+          },
+          {
+            "label": "Blank Book"
+          },
+          {
+            "label": "Bead of Nourishment"
+          },
+          {
+            "label": "Bead of Refreshment"
+          },
+          {
+            "label": "Candle of the Deep"
+          },
+          {
+            "label": "Cloak of Billowing"
+          },
+          {
+            "label": "Cloak of Many Fashions"
+          },
+          {
+            "label": "Clothes of Mending"
+          },
+          {
+            "label": "Dark Shard Amulet"
+          },
+          {
+            "label": "Enduring Spellbook"
+          },
+          {
+            "label": "Ersatz Eye"
+          },
+          {
+            "label": "Hat of Vermin"
+          },
+          {
+            "label": "Hat of Wizardry"
+          },
+          {
+            "label": "Heward's Handy Spice Pouch"
+          },
+          {
+            "label": "Horn of Silent Alarm"
+          },
+          {
+            "label": "Instrument of Illusions"
+          },
+          {
+            "label": "Instrument of Scribing"
+          },
+          {
+            "label": "Lock of Trickery"
+          },
+          {
+            "label": "Mystery Key"
+          },
+          {
+            "label": "Orb of Direction"
+          },
+          {
+            "label": "Orb of Time"
+          },
+          {
+            "label": "Perfume of Bewitching"
+          },
+          {
+            "label": "Pipe of Smoke Monsters"
+          },
+          {
+            "label": "Potion of Climbing"
+          },
+          {
+            "label": "Potion of Comprehension"
+          },
+          {
+            "label": "Pot of Awakening"
+          },
+          {
+            "label": "Prosthetic Limb"
+          },
+          {
+            "label": "Rival Coin"
+          },
+          {
+            "label": "Rope of Mending"
+          },
+          {
+            "label": "Ruby of the War Mage"
+          },
+          {
+            "label": "Spell Scroll (cantrip or level 1 spell)"
+          },
+          {
+            "label": "Staff of Adornment"
+          },
+          {
+            "label": "Staff of Birdcalls"
+          },
+          {
+            "label": "Staff of Flowers"
+          },
+          {
+            "label": "Talking Doll"
+          },
+          {
+            "label": "Tankard of Sobriety"
+          },
+          {
+            "label": "Wand of Conducting"
+          },
+          {
+            "label": "Wand of Pyrotechnics"
+          }
+        ],
+        "costGP": 0,
+        "costText": "0",
+        "notes": null
+      },
+      {
+        "id": "craft_uncommon",
+        "label": "Craft Uncommon",
+        "options": [
+          {
+            "label": "Amulet of Proof against Detection and Location"
+          },
+          {
+            "label": "Baba Yaga's Dancing Broom"
+          },
+          {
+            "label": "Bag of Holding"
+          },
+          {
+            "label": "Bag of Tricks"
+          },
+          {
+            "label": "Brooch of Shielding"
+          },
+          {
+            "label": "Broom of Flying"
+          },
+          {
+            "label": "Cap of Water Breathing"
+          },
+          {
+            "label": "Circlet of Blasting"
+          },
+          {
+            "label": "Cloak of Protection"
+          },
+          {
+            "label": "Cloak of the Manta Ray"
+          },
+          {
+            "label": "Decanter of Endless Water"
+          },
+          {
+            "label": "Deck of Illusions"
+          },
+          {
+            "label": "Driftglobe"
+          },
+          {
+            "label": "Dust of Disappearance"
+          },
+          {
+            "label": "Dust of Dryness"
+          },
+          {
+            "label": "Dust of Sneezing and Choking"
+          },
+          {
+            "label": "Elemental Gem"
+          },
+          {
+            "label": "Enspelled Staff (cantrip or level 1 spell)"
+          },
+          {
+            "label": "Eversmoking Bottle"
+          },
+          {
+            "label": "Eyes of Charming"
+          },
+          {
+            "label": "Eyes of Minute Seeing"
+          },
+          {
+            "label": "Figurine of Wondrous Power (silver raven)"
+          },
+          {
+            "label": "Gem of Brightness"
+          },
+          {
+            "label": "Hag Eye"
+          },
+          {
+            "label": "Hat of Disguise"
+          },
+          {
+            "label": "Headband of Intellect"
+          },
+          {
+            "label": "Helm of Comprehending Languages"
+          },
+          {
+            "label": "Helm of Telepathy"
+          },
+          {
+            "label": "Immovable Rod"
+          },
+          {
+            "label": "Lantern of Revealing"
+          },
+          {
+            "label": "Medallion of Thoughts"
+          },
+          {
+            "label": "Mithral Armor"
+          },
+          {
+            "label": "Necklace of Adaptation"
+          },
+          {
+            "label": "Oil of Slipperiness"
+          },
+          {
+            "label": "Pearl of Power"
+          },
+          {
+            "label": "Periapt of Health"
+          },
+          {
+            "label": "Philter of Love"
+          },
+          {
+            "label": "Potion of Animal Friendship"
+          },
+          {
+            "label": "Potion of Fire Breath"
+          },
+          {
+            "label": "Potion of Giant Strength (hill)"
+          },
+          {
+            "label": "Potion of Growth"
+          },
+          {
+            "label": "Potion of Poison"
+          },
+          {
+            "label": "Potion of Resistance"
+          },
+          {
+            "label": "Potion of Water Breathing"
+          },
+          {
+            "label": "Quaal's Feather Token (anchor, fan, or tree)"
+          },
+          {
+            "label": "Ring of Mind Shielding"
+          },
+          {
+            "label": "Robe of Useful Items"
+          },
+          {
+            "label": "Rod of the Pact Keeper"
+          },
+          {
+            "label": "Rope of Climbing"
+          },
+          {
+            "label": "Saddle of the Cavalier"
+          },
+          {
+            "label": "Sending Stones"
+          },
+          {
+            "label": "Slippers of Spider Climbing"
+          },
+          {
+            "label": "Spell Scroll (level 2 or level 3 spell)"
+          },
+          {
+            "label": "Staff of the Adder"
+          },
+          {
+            "label": "Staff of the Python"
+          },
+          {
+            "label": "Wand of Magic Detection"
+          },
+          {
+            "label": "Wand of Magic Missiles"
+          },
+          {
+            "label": "Wand of Secrets"
+          },
+          {
+            "label": "Wand of the War Mage, +1"
+          },
+          {
+            "label": "Wand of Web"
+          },
+          {
+            "label": "Wind Fan"
+          },
+          {
+            "label": "Winged Boots"
+          }
+        ],
+        "costGP": 0,
+        "costText": "0",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "name": "Workshop",
+    "id": "workshop",
+    "requiredLevel": 5,
+    "functions": [
+      {
+        "id": "craft",
+        "label": "Craft",
+        "options": [],
+        "costGP": 0,
+        "costText": "0",
+        "notes": "Outputs/dropdowns for the Craft function will be populated based on the selected toolsets added to the workshop facility (see TOOLS_TABLES sheet):\nSmith\u2019s Tools        \nTinker\u2019s Tools        \nAlchemist\u2019s Supplies        \nWeaver\u2019s Tools        \nJeweler\u2019s Tools        \nLeatherworker\u2019s Tools        \nCarpenter\u2019s Tools        \nMason\u2019s Tools        \nGlassblower\u2019s Tools        \nCobbler\u2019s Tools        \nPotter\u2019s Tools        \nWoodcarver\u2019s Tools        \nPainter\u2019s Supplies        \nCalligrapher\u2019s Supplies"
+      },
+      {
+        "id": "craft_magic_item",
+        "label": "Craft Magic Item",
+        "options": [
+          {
+            "label": "Bead of Nourishment"
+          },
+          {
+            "label": "Bead of Refreshment"
+          },
+          {
+            "label": "Boots of False Tracks"
+          },
+          {
+            "label": "Candle of the Deep"
+          },
+          {
+            "label": "Charlatan's Die"
+          },
+          {
+            "label": "Cloak of Many Fashions"
+          },
+          {
+            "label": "Clockwork Amulet"
+          },
+          {
+            "label": "Ear Horn of Hearing"
+          },
+          {
+            "label": "Ersatz Eye"
+          },
+          {
+            "label": "Heward's Handy Spice Pouch"
+          },
+          {
+            "label": "Horn of Silent Alarm"
+          },
+          {
+            "label": "Instrument of Illusions"
+          },
+          {
+            "label": "Instrument of Scribing"
+          },
+          {
+            "label": "Lock of Trickery"
+          },
+          {
+            "label": "Moon-Touched Sword"
+          },
+          {
+            "label": "Mystery Key"
+          },
+          {
+            "label": "Orb of Direction"
+          },
+          {
+            "label": "Orb of Time"
+          },
+          {
+            "label": "Perfume of Bewitching"
+          },
+          {
+            "label": "Pipe of Smoke Monsters"
+          },
+          {
+            "label": "Pole of Angling"
+          },
+          {
+            "label": "Pole of Collapsing"
+          },
+          {
+            "label": "Potion of Climbing"
+          },
+          {
+            "label": "Potion of Comprehension"
+          },
+          {
+            "label": "Potion of Healing"
+          },
+          {
+            "label": "Prosthetic Limb"
+          },
+          {
+            "label": "Rope of Mending"
+          },
+          {
+            "label": "Staff of Birdcalls"
+          },
+          {
+            "label": "Sylvan Talon"
+          },
+          {
+            "label": "Talking Doll"
+          },
+          {
+            "label": "Tankard of Sobriety"
+          },
+          {
+            "label": "Veteran's Cane"
+          },
+          {
+            "label": "Walloping Ammunition"
+          },
+          {
+            "label": "Wand of Conducting"
+          },
+          {
+            "label": "Wand of Enemy Detection"
+          },
+          {
+            "label": "Wand of Pyrotechnics"
+          },
+          {
+            "label": "Alchemy Jug"
+          },
+          {
+            "label": "Ammunition, +1"
+          },
+          {
+            "label": "Bag of Holding"
+          },
+          {
+            "label": "Boots of Elvenkind"
+          },
+          {
+            "label": "Boots of Striding and Springing"
+          },
+          {
+            "label": "Boots of the Winterlands"
+          },
+          {
+            "label": "Broom of Flying"
+          },
+          {
+            "label": "Cap of Water Breathing"
+          },
+          {
+            "label": "Cloak of Elvenkind"
+          },
+          {
+            "label": "Cloak of Protection"
+          },
+          {
+            "label": "Cloak of the Manta Ray"
+          },
+          {
+            "label": "Decanter of Endless Water"
+          },
+          {
+            "label": "Driftglobe"
+          },
+          {
+            "label": "Dust of Disappearance"
+          },
+          {
+            "label": "Dust of Dryness"
+          },
+          {
+            "label": "Dust of Sneezing and Choking"
+          },
+          {
+            "label": "Enspelled Weapon (cantrip or level 1 spell)"
+          },
+          {
+            "label": "Eyes of Minute Seeing"
+          },
+          {
+            "label": "Eyes of the Eagle"
+          },
+          {
+            "label": "Gloves of Missile Snaring"
+          },
+          {
+            "label": "Gloves of Swimming and Climbing"
+          },
+          {
+            "label": "Gloves of Thievery"
+          },
+          {
+            "label": "Goggles of Night"
+          },
+          {
+            "label": "Hag Eye"
+          },
+          {
+            "label": "Helm of Comprehending Languages"
+          },
+          {
+            "label": "Immovable Rod"
+          },
+          {
+            "label": "Instrument of the Bards"
+          },
+          {
+            "label": "Lantern of Revealing"
+          },
+          {
+            "label": "Nature's Mantle"
+          },
+          {
+            "label": "Oil of Slipperiness"
+          },
+          {
+            "label": "Pipes of Haunting"
+          },
+          {
+            "label": "Pipes of the Sewers"
+          },
+          {
+            "label": "Potion of Growth"
+          },
+          {
+            "label": "Potion of Healing (greater)"
+          },
+          {
+            "label": "Potion of Water Breathing"
+          },
+          {
+            "label": "Quaal's Feather Token (anchor, fan, or tree)"
+          },
+          {
+            "label": "Ring of Jumping"
+          },
+          {
+            "label": "Ring of Swimming"
+          },
+          {
+            "label": "Ring of Warmth"
+          },
+          {
+            "label": "Robe of Useful Items"
+          },
+          {
+            "label": "Rope of Climbing"
+          },
+          {
+            "label": "Stone of Good Luck"
+          },
+          {
+            "label": "Wand of Secrets"
+          }
+        ],
+        "costGP": 0,
+        "costText": "0",
+        "notes": "This function (Craft Magic Item) is not available until the players reach Level 9."
+      }
+    ]
+  },
+  {
+    "name": "Barracks",
+    "id": "barracks",
+    "requiredLevel": 5,
+    "functions": [
+      {
+        "id": "recruit_defenders",
+        "label": "Recruit Defenders",
+        "options": [],
+        "costGP": 0,
+        "costText": "0",
+        "notes": "1d4 defenders recruited and added to Bastion Defenders Panel"
+      }
+    ]
+  },
+  {
+    "name": "Watchtower",
+    "id": "watchtower",
+    "requiredLevel": 5,
+    "functions": [
+      {
+        "id": "patrol",
+        "label": "Patrol",
+        "options": [],
+        "costGP": 0,
+        "costText": "0",
+        "notes": "Gives Advantage on all rolls for Bastion Defenders if the Bastion is attacked during the next turn"
+      }
+    ]
+  },
+  {
+    "name": "Dock",
+    "id": "dock",
+    "requiredLevel": 5,
+    "functions": [
+      {
+        "id": "charter_berth",
+        "label": "Charter Berth",
+        "options": [
+          {
+            "label": "Keelboat",
+            "costGP": 100,
+            "costText": "100GP"
+          },
+          {
+            "label": "Longship",
+            "costGP": 200,
+            "costText": "200GP"
+          },
+          {
+            "label": "Sloop",
+            "costGP": 400,
+            "costText": "400GP"
+          },
+          {
+            "label": "Cutter",
+            "costGP": 500,
+            "costText": "500GP"
+          },
+          {
+            "label": "Brig",
+            "costGP": 750,
+            "costText": "750GP"
+          },
+          {
+            "label": "Warship",
+            "costGP": 900,
+            "costText": "900 GP"
+          },
+          {
+            "label": "Galley",
+            "costGP": 1000,
+            "costText": "1000GP"
+          },
+          {
+            "label": "Galleon",
+            "costGP": 1250,
+            "costText": "1250GP"
+          }
+        ],
+        "costGP": null,
+        "costText": "100GP\n200GP\n400GP\n500GP\n750GP\n900 GP\n1000GP\n1250GP",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "name": "Armoury",
+    "id": "armoury",
+    "requiredLevel": 5,
+    "functions": [
+      {
+        "id": "arm_defenders",
+        "label": "Arm Defenders",
+        "options": [],
+        "costGP": null,
+        "costText": "100GP + (current bastion defenders x 100GP)",
+        "notes": "Once action completed, Bastion Defenders Panel shows 'Armed'"
+      }
+    ]
+  },
+  {
+    "name": "Sanctuary",
+    "id": "sanctuary",
+    "requiredLevel": 9,
+    "functions": [
+      {
+        "id": "craft",
+        "label": "Craft",
+        "options": [
+          {
+            "label": "Druidic Focus"
+          },
+          {
+            "label": "Holy Symbol"
+          }
+        ],
+        "costGP": 0,
+        "costText": "0",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "name": "Garden",
+    "id": "garden",
+    "requiredLevel": 5,
+    "functions": [
+      {
+        "id": "harvest",
+        "label": "Harvest",
+        "options": [
+          {
+            "label": "Antitoxin (2 vials)"
+          },
+          {
+            "label": "Rations (100)"
+          },
+          {
+            "label": "Healer's Kit"
+          },
+          {
+            "label": "Potion of Healing"
+          },
+          {
+            "label": "Basic Poison"
+          }
+        ],
+        "costGP": 0,
+        "costText": "0",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "name": "Gaming Hall",
+    "id": "gaming_hall",
+    "requiredLevel": 9,
+    "functions": [
+      {
+        "id": "trade",
+        "label": "Trade",
+        "options": [],
+        "costGP": 0,
+        "costText": "0",
+        "notes": "AUTO ROLL - 1d100 and based on the roll, add the corresponding GP to the treasury (using AUTO ROLL functions again):\n01-50\n1d6 \u00d7 10 GP\n51-85\n2d6 \u00d7 10 GP\n86-95\n4d6 \u00d7 10 GP\n96-00\n10d6 \u00d7 10 GP"
+      }
+    ]
+  },
+  {
+    "name": "Storehouse",
+    "id": "storehouse",
+    "requiredLevel": 5,
+    "functions": [
+      {
+        "id": "trade",
+        "label": "Trade",
+        "options": [
+          {
+            "label": "Clan Blackstone"
+          },
+          {
+            "label": "Clan Karr"
+          },
+          {
+            "label": "Clan Rowthorn"
+          },
+          {
+            "label": "Clan Bacca"
+          },
+          {
+            "label": "Clan Molten"
+          },
+          {
+            "label": "Clan Farmer"
+          },
+          {
+            "label": "Clan Slade"
+          }
+        ],
+        "costGP": 0,
+        "costText": "0",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "name": "Smithy",
+    "id": "smithy",
+    "requiredLevel": 5,
+    "functions": [
+      {
+        "id": "craft",
+        "label": "Craft",
+        "options": [
+          {
+            "label": "Battleaxe"
+          },
+          {
+            "label": "Handaxe"
+          },
+          {
+            "label": "Greataxe"
+          },
+          {
+            "label": "Warhammer"
+          },
+          {
+            "label": "War pick"
+          },
+          {
+            "label": "Longsword"
+          },
+          {
+            "label": "Shortsword"
+          },
+          {
+            "label": "Greatsword"
+          },
+          {
+            "label": "Scimitar"
+          },
+          {
+            "label": "Rapier"
+          },
+          {
+            "label": "Dagger"
+          },
+          {
+            "label": "Spear"
+          },
+          {
+            "label": "Javelin"
+          },
+          {
+            "label": "Trident"
+          },
+          {
+            "label": "Mace"
+          },
+          {
+            "label": "Morningstar"
+          },
+          {
+            "label": "Flail"
+          },
+          {
+            "label": "Halberd"
+          },
+          {
+            "label": "Glaive"
+          },
+          {
+            "label": "Pike"
+          },
+          {
+            "label": "Lance"
+          },
+          {
+            "label": "Arrowheads"
+          },
+          {
+            "label": "Bolt heads"
+          },
+          {
+            "label": "Ammunition heads"
+          },
+          {
+            "label": "Chain shirt"
+          },
+          {
+            "label": "Scale mail"
+          },
+          {
+            "label": "Chain mail"
+          },
+          {
+            "label": "Splint armor"
+          },
+          {
+            "label": "Plate armor"
+          },
+          {
+            "label": "Ring mail"
+          },
+          {
+            "label": "Half plate"
+          },
+          {
+            "label": "Shield (metal)"
+          },
+          {
+            "label": "Manacles"
+          },
+          {
+            "label": "Caltrops"
+          },
+          {
+            "label": "Ball bearings"
+          },
+          {
+            "label": "Crowbar"
+          },
+          {
+            "label": "Pitons"
+          },
+          {
+            "label": "Grappling hook"
+          },
+          {
+            "label": "Hunting trap"
+          },
+          {
+            "label": "Iron spikes"
+          },
+          {
+            "label": "Metal hinges"
+          },
+          {
+            "label": "Metal locks (body and components)"
+          },
+          {
+            "label": "Metal door fittings"
+          },
+          {
+            "label": "Metal bars"
+          },
+          {
+            "label": "Horseshoes"
+          },
+          {
+            "label": "Bits"
+          },
+          {
+            "label": "Nails"
+          },
+          {
+            "label": "Chains"
+          },
+          {
+            "label": "Metal brackets"
+          },
+          {
+            "label": "+1 metal weapon (base item)"
+          },
+          {
+            "label": "+2 metal weapon (base item)"
+          },
+          {
+            "label": "+3 metal weapon (base item)"
+          },
+          {
+            "label": "+1 metal armor (base item)"
+          },
+          {
+            "label": "+2 metal armor (base item)"
+          },
+          {
+            "label": "+3 metal armor (base item)"
+          }
+        ],
+        "costGP": null,
+        "costText": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "name": "Library",
+    "id": "library",
+    "requiredLevel": 5,
+    "functions": [
+      {
+        "id": "research",
+        "label": "Research",
+        "options": [
+          {
+            "label": "Geographical"
+          },
+          {
+            "label": "Lore"
+          },
+          {
+            "label": "History"
+          },
+          {
+            "label": "Politics"
+          },
+          {
+            "label": "War"
+          }
+        ],
+        "costGP": 0,
+        "costText": "0",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "name": "Laboratory",
+    "id": "laboratory",
+    "requiredLevel": 9,
+    "functions": [
+      {
+        "id": "craft",
+        "label": "Craft",
+        "options": [
+          {
+            "label": "Burnt Othur Fumes (Poison)"
+          },
+          {
+            "label": "Essence of Ether (Poison)"
+          },
+          {
+            "label": "Torpor (Poison)"
+          },
+          {
+            "label": "Acid vial"
+          },
+          {
+            "label": "Alchemist\u2019s fire"
+          },
+          {
+            "label": "Basic poison"
+          },
+          {
+            "label": "Contact poison (simple)"
+          },
+          {
+            "label": "Ingested poison (simple)"
+          },
+          {
+            "label": "Antitoxin"
+          },
+          {
+            "label": "Smelling salts"
+          },
+          {
+            "label": "Simple antidote"
+          },
+          {
+            "label": "Smokestick"
+          },
+          {
+            "label": "Flash powder"
+          },
+          {
+            "label": "Strong glue"
+          },
+          {
+            "label": "Solvent"
+          },
+          {
+            "label": "Oil (standard)"
+          },
+          {
+            "label": "Oil (special mixture)"
+          },
+          {
+            "label": "Firebomb (reskinned alchemist\u2019s fire)"
+          },
+          {
+            "label": "Frost vial (cold variant)"
+          },
+          {
+            "label": "Sticky bomb (glue grenade)"
+          },
+          {
+            "label": "Grease flask"
+          },
+          {
+            "label": "Contact irritant (itching powder)"
+          },
+          {
+            "label": "Food preservative"
+          },
+          {
+            "label": "Water purifier solution"
+          },
+          {
+            "label": "Potion of healing (common)"
+          },
+          {
+            "label": "Potion of greater healing (base item)"
+          },
+          {
+            "label": "Potion of superior healing (base item)"
+          },
+          {
+            "label": "Potion of supreme healing (base item)"
+          },
+          {
+            "label": "Potion of climbing (base item)"
+          },
+          {
+            "label": "Potion of water breathing (base item)"
+          },
+          {
+            "label": "Potion of resistance (base item)"
+          },
+          {
+            "label": "Darkvision draught (base item)"
+          },
+          {
+            "label": "Stoneskin varnish (base item)"
+          },
+          {
+            "label": "Vitality tonic (base item)"
+          }
+        ],
+        "costGP": 0,
+        "costText": "0",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "name": "Greenhouse",
+    "id": "greenhouse",
+    "requiredLevel": 9,
+    "functions": [
+      {
+        "id": "harvest",
+        "label": "Harvest",
+        "options": [
+          {
+            "label": "Greater Potion of Healing"
+          },
+          {
+            "label": "Truth Serum"
+          },
+          {
+            "label": "Assassin's Blood"
+          },
+          {
+            "label": "Pale Tincture"
+          },
+          {
+            "label": "Malice"
+          }
+        ],
+        "costGP": 0,
+        "costText": "0",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "name": "Scriptorium",
+    "id": "scriptorium",
+    "requiredLevel": 9,
+    "functions": [
+      {
+        "id": "craft",
+        "label": "Craft",
+        "options": [
+          {
+            "label": "Book Replica",
+            "costGP": 0,
+            "costText": "0GP"
+          },
+          {
+            "label": "Spell Scroll (<L3)",
+            "costGP": 0,
+            "costText": "0GP"
+          },
+          {
+            "label": "Pamphlets",
+            "costGP": 50,
+            "costText": "50GP"
+          }
+        ],
+        "costGP": null,
+        "costText": "0GP\n0GP\n50GP",
+        "notes": null
+      }
+    ]
+  },
+  {
+    "name": "Menagerie",
+    "id": "menagerie",
+    "requiredLevel": 13,
+    "functions": [
+      {
+        "id": "recruit_beast",
+        "label": "Recruit Beast",
+        "options": [
+          {
+            "label": "Ape",
+            "costGP": 500,
+            "costText": "500 GP"
+          },
+          {
+            "label": "Black Bear",
+            "costGP": 500,
+            "costText": "500 GP"
+          },
+          {
+            "label": "Brown Bear",
+            "costGP": 1000,
+            "costText": "1,000 GP"
+          },
+          {
+            "label": "Constrictor Snake",
+            "costGP": 250,
+            "costText": "250 GP"
+          },
+          {
+            "label": "Crocodile",
+            "costGP": 500,
+            "costText": "500 GP"
+          },
+          {
+            "label": "Dire Wolf",
+            "costGP": 1000,
+            "costText": "1,000 GP"
+          },
+          {
+            "label": "Giant Vulture",
+            "costGP": 1000,
+            "costText": "1,000 GP"
+          },
+          {
+            "label": "Hyena",
+            "costGP": 50,
+            "costText": "50 GP"
+          },
+          {
+            "label": "Jackal",
+            "costGP": 50,
+            "costText": "50 GP"
+          },
+          {
+            "label": "Lion",
+            "costGP": 1000,
+            "costText": "1,000 GP"
+          },
+          {
+            "label": "Owlbear",
+            "costGP": 3500,
+            "costText": "3,500 GP"
+          },
+          {
+            "label": "Panther",
+            "costGP": 250,
+            "costText": "250 GP"
+          },
+          {
+            "label": "Tiger",
+            "costGP": 1000,
+            "costText": "1,000 GP"
+          }
+        ],
+        "costGP": null,
+        "costText": "500 GP\n500 GP\n1,000 GP\n250 GP\n500 GP\n1,000 GP\n1,000 GP\n50 GP\n50 GP\n1,000 GP\n3,500 GP\n250 GP\n1,000 GP",
+        "notes": "Recruited Beasts are listed in the Bastion Defenders Panel"
+      }
+    ]
+  },
+  {
+    "name": "War Room",
+    "id": "war_room",
+    "requiredLevel": 17,
+    "functions": [
+      {
+        "id": "recruit",
+        "label": "Recruit",
+        "options": [
+          {
+            "label": "Lieutenant (1)"
+          },
+          {
+            "label": "Regiment (100)"
+          }
+        ],
+        "costGP": 0,
+        "costText": "0",
+        "notes": "No cost for recruitment, but each soldier in the regiment costs 1GP per bastion turn. \nLieutenants and Soldiers are added to the 'Military' Panel."
+      }
+    ]
+  }
+]
