@@ -31,6 +31,9 @@
     rollEventBtn: $("rollEventBtn"),
     advanceTurnBtn: $("advanceTurnBtn"),
     resetBtn: $("resetBtn"),
+    downloadSaveBtn: $("downloadSaveBtn"),
+    importSaveBtn: $("importSaveBtn"),
+    importFileInput: $("importFileInput"),
     turnPill: $("turnPill"),
 
     defendersValue: $("defendersValue"),
@@ -292,7 +295,62 @@ if(state.turn % 4 === 0){
   render();
 });
 
-    ui.resetBtn.addEventListener("click", () => {
+    // ---------------- Save Export / Import ----------------
+ui.downloadSaveBtn?.addEventListener("click", () => {
+  try{
+    // Make sure latest UI edits are captured before export
+    readWarehouseFromUI?.();
+    readArtisanToolsFromUI?.();
+
+    const json = JSON.stringify(state, null, 2);
+    const blob = new Blob([json], { type: "application/json" });
+
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = `ironbow_bastion_save_turn_${state.turn}.json`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+
+    setTimeout(()=>URL.revokeObjectURL(a.href), 500);
+    log("Save File", "Downloaded JSON save file.");
+    saveState();
+    render();
+  }catch(e){
+    console.error(e);
+    alert("Could not download save. Open Console (F12) for details.");
+  }
+});
+
+ui.importSaveBtn?.addEventListener("click", () => {
+  ui.importFileInput?.click();
+});
+
+ui.importFileInput?.addEventListener("change", async () => {
+  const file = ui.importFileInput.files?.[0];
+  if(!file) return;
+
+  try{
+    const text = await file.text();
+    const imported = JSON.parse(text);
+
+    if(!confirm("Import this save? This will overwrite your current saved state in this browser.")){
+      ui.importFileInput.value = "";
+      return;
+    }
+
+    // Store imported JSON directly; your loadState() already merges defaults safely on reload
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(imported));
+    location.reload();
+  }catch(e){
+    console.error(e);
+    alert("That file was not valid JSON (or couldn’t be read). Open Console (F12) for details.");
+  }finally{
+    ui.importFileInput.value = "";
+  }
+});
+
+     ui.resetBtn.addEventListener("click", () => {
       if(!confirm("Reset app state? This clears your local saved data on THIS browser only.")) return;
       localStorage.removeItem(STORAGE_KEY);
       location.reload();
